@@ -7,23 +7,6 @@ type CarouselItem = {
 
 export default function Home(){
 
-  const CLIENT_ID="1ee64a060989476a823be1c469a1f507"
-  const SPOTIFY_AUTH_ENDPOINT="https://accounts.spotify.com/authorize"
-  const REDIRECT_URL="http://localhost:3000"
-  const SPACE_DELIMITER="%20"
-  const SCOPES=["user-read-currently-playing","user-read-playback-state"]
-  const SCOPES_URLPARAM= SCOPES.join(SPACE_DELIMITER)
-
-  const handleLogin = () => {
-    
-    const inputElement = document.getElementById("clientID");
-    const value = inputElement.value;
-    console.log(value)
-
-    //window.location.href=`${SPOTIFY_AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URL}&scope=${SCOPES_URLPARAM}&response_type=token&show_dialog=true`
-  }
-
-
   return (
     <div className='w-full'>
       <div className="navbar bg-base-100">
@@ -67,28 +50,20 @@ export default function Home(){
       </div>
       <div className='flex flex-col items-center justify-center mt-40 text-center'>
         <h1 className='text-6xl'>The Line Fan</h1>
-        <div>
-          <input id="clientID" type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs" />
-          <input id="passID" type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs" />
-          <button className='btn btn-primary' onClick={handleLogin}>Login</button>
-        </div>
-
-        <div className="carousel rounded-box">
-          <div className="carousel-item">
-            <img src="https://ipfs.io/ipfs/bafybeidpt4tmwmo2agcvodmlzivzb7373nlsdawejkkdyq4ubxynen2tva" alt="Burger" />
+        <div className="flex carousel rounded-box">
+          <div className="flex carousel-item">
+            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeidpt4tmwmo2agcvodmlzivzb7373nlsdawejkkdyq4ubxynen2tva" alt="Burger" />
           </div> 
-          <div className="carousel-item">
-            <img src="https://ipfs.io/ipfs/bafybeiffgty56qwljy6263t676akq45nqguwewopy5a6xjg6f7equ7dmm4" alt="Burger" />
+          <div className="flex carousel-item">
+            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiffgty56qwljy6263t676akq45nqguwewopy5a6xjg6f7equ7dmm4" alt="Burger" />
           </div> 
-          <div className="carousel-item">
-            <img src="https://ipfs.io/ipfs/bafybeiaxmp2r3sj5hkopduuwxxdxmno6fgjwdnvmhsrzd4qvzpffqgwfoi" alt="Burger" />
+          <div className="flex carousel-item">
+            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiaxmp2r3sj5hkopduuwxxdxmno6fgjwdnvmhsrzd4qvzpffqgwfoi" alt="Burger" />
           </div> 
-          <div className="carousel-item">
-            <img src="https://ipfs.io/ipfs/bafybeiegb25w3rhoqcfdttvyitwv5xgglfnj5p4uwqqh7fz4fswrh52sha" alt="Burger" />
+          <div className="flex carousel-item">
+            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiegb25w3rhoqcfdttvyitwv5xgglfnj5p4uwqqh7fz4fswrh52sha" alt="Burger" />
           </div> 
         </div>
-
-
       </div>
     </div>
 
