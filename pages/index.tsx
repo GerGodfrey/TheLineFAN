@@ -75,26 +75,17 @@ export default function Home(){
 
         <div className="carousel rounded-box">
           <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
+            <img src="https://ipfs.io/ipfs/bafybeidpt4tmwmo2agcvodmlzivzb7373nlsdawejkkdyq4ubxynen2tva" alt="Burger" />
           </div> 
           <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
+            <img src="https://ipfs.io/ipfs/bafybeiffgty56qwljy6263t676akq45nqguwewopy5a6xjg6f7equ7dmm4" alt="Burger" />
           </div> 
           <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
+            <img src="https://ipfs.io/ipfs/bafybeiaxmp2r3sj5hkopduuwxxdxmno6fgjwdnvmhsrzd4qvzpffqgwfoi" alt="Burger" />
           </div> 
           <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
+            <img src="https://ipfs.io/ipfs/bafybeiegb25w3rhoqcfdttvyitwv5xgglfnj5p4uwqqh7fz4fswrh52sha" alt="Burger" />
           </div> 
-          <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
-          </div> 
-          <div className="carousel-item">
-            <img src="https://picsum.photos/200/300" alt="Burger" />
-          </div>
         </div>
 
 
