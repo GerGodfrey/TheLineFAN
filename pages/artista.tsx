@@ -49,11 +49,7 @@ export default function Artista(){
         return code 
     }
 
-    const handleAuthorizationResponse = () =>{
-        
-    }
-
-    async function callAuthAPI2(body) {
+    async function callAuthAPI2(body: string) {
         const res = await fetch("https://accounts.spotify.com/api/token", {
             // mode: 'no-cors',
             method: 'POST',
@@ -67,7 +63,7 @@ export default function Artista(){
         .then(response => response.json())
         .then(data => {
             // Handle the response
-            handleAuthorizationResponse(data);
+            
         })
         .catch(error => {
             // Handle errors
@@ -75,7 +71,7 @@ export default function Artista(){
         });
     }
 
-    const fetchAccessToken = (code) => {
+    const fetchAccessToken = (code: string | null) => {
         let body = ""
         body += "&grant_type=authorization_code"
         body += "&code=" + code
