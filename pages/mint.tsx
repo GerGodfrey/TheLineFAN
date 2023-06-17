@@ -19,7 +19,6 @@ import duaLipa from "./img/dua.jpg"
 
   const handleCancel = () => {
     // Lógica para cancelar la operación de minteo
-    setImageInfo({ imageUrl: '', attributes: [] });
   };
 
   return (
