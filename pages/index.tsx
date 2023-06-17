@@ -1,7 +1,9 @@
 import React, {useRef, useState} from 'react';
 import SearchBox from './components/SearchBox';
 import Image from 'next/image'
-import {duaLipa} from './img'
+//import {duaLipa} from './img'
+
+import duaLipa from "./img/dua.jpg"
 
 type CarouselItem = {
   src: string;
