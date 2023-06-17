@@ -1,5 +1,7 @@
 import React, {useRef, useState} from 'react';
 import SearchBox from './components/SearchBox';
+import Image from 'next/image'
+import {duaLipa} from './img'
 
 type CarouselItem = {
   src: string;
@@ -54,16 +56,16 @@ export default function Home(){
         <h1 className='text-6xl'>The Line Fan</h1>
         <div className="flex carousel rounded-box">
           <div className="flex carousel-item">
-            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeidpt4tmwmo2agcvodmlzivzb7373nlsdawejkkdyq4ubxynen2tva" alt="Burger" />
+            <Image width={500} height={500} className="object-contain h-48 w-96" src={duaLipa} alt="DuaLipa" />
           </div> 
           <div className="flex carousel-item">
-            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiffgty56qwljy6263t676akq45nqguwewopy5a6xjg6f7equ7dmm4" alt="Burger" />
+            <Image width={500} height={500} className="object-contain h-48 w-96" src={duaLipa} alt="Bad Bunny" />
           </div> 
           <div className="flex carousel-item">
-            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiaxmp2r3sj5hkopduuwxxdxmno6fgjwdnvmhsrzd4qvzpffqgwfoi" alt="Burger" />
+            <Image width={500} height={500} className="object-contain h-48 w-96" src={duaLipa} alt="Otro" />
           </div> 
           <div className="flex carousel-item">
-            <img className="object-contain h-48 w-96" src="https://ipfs.io/ipfs/bafybeiegb25w3rhoqcfdttvyitwv5xgglfnj5p4uwqqh7fz4fswrh52sha" alt="Burger" />
+            <Image width={500} height={500} className="object-contain h-48 w-96" src={duaLipa} alt="Otro2" />
           </div> 
         </div>
       </div>
