@@ -20,6 +20,16 @@ The DApp consists of the following main components:
 5.	**Payment Process:** Once the selections are complete, users will proceed to make the corresponding payment to acquire the chosen tickets.
 Additionally, from the home screen, users who have purchased tickets in the pre-sale will be able to access additional features such as transportation, lockers, and mobile device chargers utilizing the Internet of Things (IoT).
 
+## Our Source
+1. Web Page: https://the-fan-lane-ebon.vercel.app/
+2. Pitch Deck: https://www.canva.com/design/DAFmDVG_RPg/Ms-XwldZiHg6dgf4JGU5Og/edit?utm_content=DAFmDVG_RPg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+3. Design 1: https://www.canva.com/design/DAFmAdvumAA/9iKNh5J_wXwBTlCgumxSqA/edit?utm_content=DAFmAdvumAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+4. Final Design Figma https://www.figma.com/file/nUbB6dd0KzDWUIWMu5cR21/FanLane?type=design&node-id=1003-22493&t=pA1L3lfjZQJjtO5b-0 
+
+## Our Repos 
+1. https://github.com/D9J9V/complete-order
+2. https://github.com/GerGodfrey/Thefanlane
+
 ## SC Info
     REACT_APP_NODE_ADDRESS=wss://testnet.vara.rs:433
     REACT_APP_CONTRACT_ADDRESS=0x9ca432329f551255e55eaa826403668a82ac023d690a51012fc478ab4453a8d2
@@ -48,10 +58,7 @@ We welcome any contributions to the development and improvement of The Fan Lane!
 <p>
 
 
-## Our Repos 
 
-1. https://github.com/D9J9V/complete-order
-2. https://github.com/GerGodfrey/Thefanlane
    
 
 
