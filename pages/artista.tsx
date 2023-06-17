@@ -95,7 +95,7 @@ export default function Artista(){
 
     React.useEffect(() => {
         onPageLoad()
-    }, [])
+    }, [onPageLoad])
 
     return(
         <div className='px-8 py-8 '>
