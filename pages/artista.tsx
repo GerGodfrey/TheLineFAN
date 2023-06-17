@@ -12,13 +12,23 @@ export default function Artista(){
     const [loginSuccess, setloginSuccess] = React.useState<boolean>(false)
     const [userCode, setuserCode] = React.useState<string>("")
     const [userTop100, setuserTop100] = React.useState<boolean>(true)
-  
+    let inputElement = ""
+
     const handleLogin = () => {
-      let inputElement = document.getElementById("clientID");
-      setclientID(inputElement.value)
-      inputElement = document.getElementById("passID");
-      setclientSecret(inputElement.value)
-  
+        
+      
+    //   try {
+    //     let inputElement = document.getElementById("clientID")
+    //     if (inputElement.value !== undefined){
+    //         setclientID(inputElement.value)
+    //     }
+    //     inputElement = document.getElementById("passID");
+    //     if (inputElement.value !== undefined){
+    //         setclientSecret(inputElement.value)
+    //     }
+    //   } catch (error) {
+    //     console.log(error)
+    //   }
       let url = SPOTIFY_AUTH_ENDPOINT
       url += "?client_id=" + CLIENT_ID
       url += "&response_type=code"
