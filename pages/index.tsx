@@ -75,9 +75,9 @@ export default function Home(){
       <div className='flex flex-col items-center justify-center mt-40 text-center'>
         <h1 className='text-6xl'>Próximos conciertos</h1>
       </div>
-      <div className='flex columns-3 grid-rows-2 px-3 items-center justify-center mt-40 sm:flex-col'>
+      <div className='flex columns-3 grid-rows-2 px-3 items-center justify-center mt-40 '>
         <div className='flex px-3 container mx-auto'>
-          <div className="card w-96 md:w-32 bg-secondary shadow-xl ">
+          <div className="card w-96 bg-secondary shadow-xl ">
             <figure><Image width={400} height={500}  src={duaLipa} alt="duaLipa" /></figure>
             <div className="card-body">
               <h2 className="card-title">Dua Lipa CDMX</h2>
