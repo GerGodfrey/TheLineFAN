@@ -30,6 +30,7 @@ export default function Compra(){
             <h1>Info del artista</h1>
 
             <h2>Conectate para saber si eres compatible </h2>
+            <h2>¡Hola! Soy un diálogo de prueba, buenas noches</h2>
 
             <div>
                 <input id="clientID" type="text" placeholder="Type here" className="input input-bordered input-primary w-full max-w-xs" />
