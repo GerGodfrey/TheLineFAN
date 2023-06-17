@@ -19,6 +19,10 @@ The DApp consists of the following main components:
 4.	**Zone and Seat Selection:** After choosing the date, users can select the preferred zone and seat within the event venue.
 5.	**Payment Process:** Once the selections are complete, users will proceed to make the corresponding payment to acquire the chosen tickets.
 Additionally, from the home screen, users who have purchased tickets in the pre-sale will be able to access additional features such as transportation, lockers, and mobile device chargers utilizing the Internet of Things (IoT).
+
+## SC Info
+    REACT_APP_NODE_ADDRESS=wss://testnet.vara.rs:433
+    REACT_APP_CONTRACT_ADDRESS=0x9ca432329f551255e55eaa826403668a82ac023d690a51012fc478ab4453a8d2
 ## Contribution
 We welcome any contributions to the development and improvement of The Fan Lane! If you would like to contribute, please follow these steps:
 1.	Clone this repository to your local machine.
@@ -31,6 +35,19 @@ We welcome any contributions to the development and improvement of The Fan Lane!
 •	Gerardo
 •	Danya
 •	Francisco
+<p align="center">
+    <br>
+    <img src="pages/img/todos.jpeg" width="500"/>
+    <br>
+<p>
+
+<p align="center">
+    <br>
+    <img src="pages/img/todos2.jpeg" width="500"/>
+    <br>
+<p>
+
+
 ## Our Repos 
 
 1. https://github.com/D9J9V/complete-order
