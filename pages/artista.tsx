@@ -1,9 +1,11 @@
 import React, {useRef} from 'react';
+import Link from 'next/link';
 
 export default function Artista(){
     const CLIENT_ID="1ee64a060989476a823be1c469a1f507"
     const SECRET_ID = "7369b2e324394dca9d1d205b3ba849cb"
     const SPOTIFY_AUTH_ENDPOINT="https://accounts.spotify.com/authorize"
+    const REDIRECT_URL2="https://the-fan-lane-ebon.vercel.app/artista"
     const REDIRECT_URL="http://localhost:3000/artista"
     const TOKEN="https://accounts.spotify.com/api/token"
 
@@ -32,7 +34,7 @@ export default function Artista(){
       let url = SPOTIFY_AUTH_ENDPOINT
       url += "?client_id=" + CLIENT_ID
       url += "&response_type=code"
-      url += "&redirect_uri=" + REDIRECT_URL
+      url += "&redirect_uri=" + REDIRECT_URL2
       url += "&show_dialog=true"
       url += "&scope=user-read-currently-playing user-read-playback-state"
   
@@ -75,7 +77,7 @@ export default function Artista(){
         let body = ""
         body += "&grant_type=authorization_code"
         body += "&code=" + code
-        body += "&redirect_uri=" + REDIRECT_URL
+        body += "&redirect_uri=" + REDIRECT_URL2
         //body += "&client_id=" + CLIENT_ID
         // body += "&code_verifier=" + SECRET_ID
         //callAuthAPI2(body)
@@ -103,9 +105,12 @@ export default function Artista(){
             {(loginSuccess) ? ( (userTop100) ? (
                 <div>
                 <h2>Felicidades . . .</h2>
-                <a>Fuiste seleccionada para la compra de la preventa especial</a>
-                <button className='btn btn-primary'>Siguiente</button>
+                
+                Fuiste seleccionada sigue en <a href="https://complete-order.vercel.app/" className='bg-secondary'>Compra</a>
+
                 </div>
+
+                
             ) : (
                 <div>
                     <h2>Lo lamentamos ...</h2>

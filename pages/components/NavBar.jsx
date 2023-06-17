@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import SearchBox from './SearchBox';
+import Link from 'next/link';
 
 const NavBar =  () => {
     return (
@@ -21,7 +22,9 @@ const NavBar =  () => {
                 <li><a>Eventos</a></li>
                 </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl">LineFAN</a>
+            <Link href="/" legacyBehavior>
+                <a className="btn btn-ghost normal-case text-xl">Fan Lane</a>
+            </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">

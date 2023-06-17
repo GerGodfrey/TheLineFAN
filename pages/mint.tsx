@@ -3,6 +3,7 @@ import Image from 'next/image';
 import duaLipa from "./img/dua.jpg"
 
   export default function Mint(){
+
   const [imageInfo, setImageInfo] = useState({
     imageUrl: duaLipa,
     attributes: [
@@ -23,7 +24,6 @@ import duaLipa from "./img/dua.jpg"
 
   return (
     <div className='w-full'>
-
       <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
         <div className="flex items-center justify-center">
           {imageInfo.imageUrl ? (
