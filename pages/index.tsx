@@ -1,4 +1,5 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
+import SearchBox from './components/SearchBox';
 
 type CarouselItem = {
   src: string;
@@ -20,8 +21,8 @@ export default function Home(){
               <li>
                 <a>Parent</a>
                 <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
+                  <li><a>Español MX</a></li>
+                  <li><a>English US</a></li>
                 </ul>
               </li>
               <li><a>Item 3</a></li>
@@ -47,6 +48,7 @@ export default function Home(){
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
+        <SearchBox />
       </div>
       <div className='flex flex-col items-center justify-center mt-40 text-center'>
         <h1 className='text-6xl'>The Line Fan</h1>
