@@ -1,4 +1,9 @@
 # The Fan Lane Repository
+<p align="center">
+    <br>
+    <img src="pages/img/logo_fanlane.png" width="500"/>
+    <br>
+<p>
 
 ## Description
 This repository contains the source code and related resources for The Fan Lane, a decentralized application (DApp) designed to address the issue of ticket scalping in the mass events industry in Mexico. The main goal of The Fan Lane is to provide true fans with the opportunity to purchase tickets at fair prices and enjoy their favorite shows without any hassle.
