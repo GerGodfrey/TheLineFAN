@@ -19,6 +19,7 @@ The DApp consists of the following main components:
 4.	**Zone and Seat Selection:** After choosing the date, users can select the preferred zone and seat within the event venue.
 5.	**Payment Process:** Once the selections are complete, users will proceed to make the corresponding payment to acquire the chosen tickets.
 Additionally, from the home screen, users who have purchased tickets in the pre-sale will be able to access additional features such as transportation, lockers, and mobile device chargers utilizing the Internet of Things (IoT).
+6. **Bot Robonomics** This bot provides in-venue, real world feedback and functionalities. As of now, we can control a local plug, used as reference of having charging spots available for premium users in the venue, and another remote plug used to refer to the ability to use a locker for in-venue storage. This implements the substrate/robonomics network and is one of our most valuable components.
 
 ## Our Source
 1. Web Page: https://the-fan-lane-ebon.vercel.app/
@@ -29,6 +30,7 @@ Additionally, from the home screen, users who have purchased tickets in the pre-
 ## Our Repos 
 1. https://github.com/D9J9V/complete-order
 2. https://github.com/GerGodfrey/Thefanlane
+3. https://github.com/GerGodfrey/botRobonomic
 
 ## SC Info
     REACT_APP_NODE_ADDRESS=wss://testnet.vara.rs:433
